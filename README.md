@@ -1,5 +1,9 @@
 # Business Enablement Concept Model
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Status](https://img.shields.io/badge/status-pre--alpha-orange.svg)](#what-this-is-not-yet)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+
 A shared, plain-language model of how a strategic priority moves from problem to sustained business impact inside a matrixed operating environment — the kind of environment where a "business enablement" function (Business, Operations, Technology/Data, Domain Specialists, and Field all touching the same initiative) is responsible for turning strategy into adopted, value-producing execution.
 
 **Status: early / pre-alpha.** This is a first pass at defining the concepts, relationships, and rules in plain language, before any of it becomes a formal schema. It is meant to be stress-tested against real initiatives, not treated as finished.
@@ -14,9 +18,8 @@ This project tries to name each stage of that lifecycle precisely enough that a 
 
 - [`concepts/`](./concepts) — one file per core concept: definition, properties, relationships, rules
 - [`roles.md`](./roles.md) — how ownership of a concept shifts across a 5-function operating model (Business, Operations, Technology/Data, Domain Specialists, Field), rather than staying fixed to one team
-- [`relationships.md`](./relationships.md) — a worked example tracing a business problem through to measured value, and where the handoffs typically break
+- [`relationships.md`](./relationships.md) — the general relationship path from a business problem through to measured value, and where the handoffs typically break
 - [`examples/`](./examples) — fully worked scenarios applying the model end to end, including a naive-vs-model-based status report comparison
-
 ## Core concepts at a glance
 
 | Concept | One-line definition |
@@ -33,9 +36,15 @@ This project tries to name each stage of that lifecycle precisely enough that a 
 
 This is not a formal ontology — there's no RDF/OWL/SHACL representation, no graph database, no visual explorer. Those are the natural next steps if this holds up under real-world testing, following the same technical pattern CommonGood Atlas uses. Right now it's a plain-language starting point.
 
+## Roadmap
+
+- [ ] Stress-test the model against real initiatives across more than two domains
+- [ ] Formal representation (RDF/OWL/SHACL), following the same pattern as CommonGood Atlas
+- [ ] Additional worked examples contributed by people outside grantmaking and healthcare
+- [ ] Interactive graph view of the concepts and relationships
 ## Feedback welcome
 
-Where are the definitions too rigid? Which concept is missing? Where does a stage get skipped in practice? Open an issue or a PR.
+Where are the definitions too rigid? Which concept is missing? Where does a stage get skipped in practice? Open an issue, or see [CONTRIBUTING.md](./CONTRIBUTING.md) for how to propose a change.
 
 ## License
 
