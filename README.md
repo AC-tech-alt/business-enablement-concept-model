@@ -15,6 +15,7 @@ This project tries to name each stage of that lifecycle precisely enough that a 
 - [`concepts/`](./concepts) — one file per core concept: definition, properties, relationships, rules
 - [`roles.md`](./roles.md) — how ownership of a concept shifts across a 5-function operating model (Business, Operations, Technology/Data, Domain Specialists, Field), rather than staying fixed to one team
 - [`relationships.md`](./relationships.md) — a worked example tracing a business problem through to measured value, and where the handoffs typically break
+- [`examples/`](./examples) — fully worked scenarios applying the model end to end, including a naive-vs-model-based status report comparison
 
 ## Core concepts at a glance
 
