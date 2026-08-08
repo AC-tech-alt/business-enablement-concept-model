@@ -49,3 +49,8 @@ Where are the definitions too rigid? Which concept is missing? Where does a stag
 ## License
 
 MIT — see [LICENSE](./LICENSE).
+
+
+## A deeper case study
+
+For a full worked example applying this model end to end to a single real-world mandate — including a theoretical pressure test — see grant-operations-infrastructure-model (https://github.com/AC-tech-alt/grant-operations-infrastructure-model).
